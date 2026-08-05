@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Roulette</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="top-bar">
+
+<div class="tabs">
+
+<button class="tab"
+onclick="location.href='index.html'">
+Журнал
+</button>
+
+<button class="tab"
+onclick="location.href='ghosts.html'">
+Все призраки
+</button>
+
+<button class="tab"
+onclick="location.href='items.html'">
+Предметы
+</button>
+
+<button class="tab active">
+Рулетка
+</button>
+
+</div>
+
+</div>
+
+<div class="ghost-page">
+
+<h1>.</h1>
+
+<div class="ghost-container roulette-page">
+
+<div id="ghostList" class="ghost-list">
+
+    <div class="roulette-arrow">▶</div>
+
+    <div class="roulette-window">
+
+        <div id="rouletteList"></div>
+
+    </div>
+
+    <button id="spinBtn" class="spin-button">
+        Крутити
+    </button>
+
+</div>
+
+<div id="info" class="ghost-info">
+
+<h2>Щоб крутити рулетку</h2>
+
+<p>Нажми "крутити"</p>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="ghosts.js"></script>
+<script src="roulette.js"></script>
+
+</body>
+
+</html>

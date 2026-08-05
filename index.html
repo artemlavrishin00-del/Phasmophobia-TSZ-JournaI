@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Журнал TSZ фазмофобії</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="top-bar">
+
+    <div class="tabs">
+
+        <button class="tab active">
+            Журнал
+        </button>
+
+        <button class="tab"
+                onclick="location.href='ghosts.html'">
+            Все призраки
+        </button>
+        <button class="tab"
+        onclick="location.href='items.html'">
+        Предметы
+        </button>
+        <button class="tab"
+onclick="location.href='roulette.html'">
+    Рулетка
+</button>
+
+    </div>
+
+</div>
+
+<div class="container">
+
+    <div class="left">
+
+<h2 class="evidence-title">Доказательства</h2>
+
+<div class="evidence-grid">
+
+<label class="evidence" data-id="emf" data-state="0">
+    
+    <img src="images/emf.png" alt="EMF">
+    <span>Сільський ЕМФ</span>
+</label>
+
+<label class="evidence" data-id="spiritbox" data-state="0">
+    
+    <img src="images/spiritbox.png" alt="EMF">
+    <span>Спіріт Бокс</span>
+</label>
+
+<label class="evidence" data-id="freezing" data-state="0">
+    
+    <img src="images/freezing.png" alt="EMF">
+    <span>Морозні температури</span>
+</label>
+<label class="evidence" data-id="Inscription" data-state="0">
+    
+    <img src="images/inscription.png" alt="EMF">
+    <span>Пише на листок</span>
+</label>
+
+
+
+<label class="evidence" data-id="Peeing" data-state="0">
+    
+    <img src="images/peeing.png" alt="EMF">
+    <span>Пішає на полаш</span>
+</label>
+
+<label class="evidence" data-id="Pigging" data-state="0">
+    
+    <img src="images/pigging.png" alt="EMF">
+    <span>Хрюкає</span>
+</label>
+
+
+<label class="evidence" data-id="MonkeyRot" data-state="0">
+    
+    <img src="images/monkeyrot.png" alt="EMF">
+    <span>Мавпа гниє</span>
+</label>
+
+<label class="evidence" data-id="ThrowingBottle" data-state="0">
+    
+    <img src="images/throwingbottle.png" alt="EMF">
+    <span>Мече бутилку</span>
+</label>
+
+<h2>Задания</h2>
+
+<div id="objectives">
+
+    <div class="objective" id="obj1"></div>
+    <div class="objective" id="obj2"></div>
+    <div class="objective" id="obj3"></div>
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+ </div>
+
+    <div class="right">
+
+        <h2>Можливі призраки</h2>
+
+        <ul id="PossibleGhosts"></ul>
+        <div id="leaveResult"></div>
+
+<div id="leaveBtn" class="leave-link">
+    Закінчити гру
+</div>
+<div id="leaveConfirm" class="leave-confirm hidden">
+
+    <div class="confirm-title">
+        Точно?
+    </div>
+
+    <div class="confirm-buttons">
+
+        <span id="confirmYes">Йо</span>
+
+        <span id="confirmNo">Ні</span>
+
+    </div>
+
+</div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+<script src="objectives.js"></script>
+</body>
+</html>

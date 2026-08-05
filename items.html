@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Items</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="top-bar">
+
+    <div class="tabs">
+
+        <button class="tab"
+            onclick="location.href='index.html'">
+            Журнал
+        </button>
+
+        <button class="tab"
+            onclick="location.href='ghosts.html'">
+            Все призраки
+        </button>
+
+        <button class="tab active">
+            Предметы
+        </button>
+        <button class="tab"
+onclick="location.href='roulette.html'">
+    Рулетка
+</button>
+
+    </div>
+
+</div>
+
+<div class="ghost-page">
+
+    <h1>.</h1>
+
+    <div class="ghost-container">
+
+        <div id="itemList" class="item-list"></div>
+
+        <div id="info" class="ghost-info">
+
+            <h2>Вибери предмет</h2>
+            <p>Тут ти узнаєш інформацію про предмет</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="items.js"></script>
+<script src="itemList.js"></script>
+
+</body>
+</html>

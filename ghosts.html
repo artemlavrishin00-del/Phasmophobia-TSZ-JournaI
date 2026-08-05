@@ -1,0 +1,66 @@
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Все призраки</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="top-bar">
+
+    <div class="tabs">
+
+        <button class="tab"
+                onclick="location.href='index.html'">
+            Журнал
+        </button>
+
+        <button class="tab active">
+            Все призраки
+        </button>
+        <button class="tab"
+        onclick="location.href='items.html'">
+        Предметы
+    </button>
+    <button class="tab"
+onclick="location.href='roulette.html'">
+    Рулетка
+</button>
+
+    </div>
+
+</div>
+
+<div class="ghost-page">
+
+    <h1>.</h1>
+
+    <div class="ghost-container">
+
+        <div id="ghostList" class="ghost-list"></div>
+
+        <div id="info" class="ghost-info">
+
+            <h2>Обери призрака</h2>
+
+            <p>Тут ти побачиш інформацію про призрака</p>
+
+        </div>
+
+    </div>
+</div>
+    <script src="ghosts.js"></script>
+<script src="ghostList.js"></script>
+
+</body>
+</html>
